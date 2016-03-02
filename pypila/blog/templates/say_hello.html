@@ -1,0 +1,12 @@
+<html>
+    <head>
+      <title></title>
+    </head>
+    <body>
+      <form action="/say_hello/" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit" />
+      </form>
+    </body>
+</html>

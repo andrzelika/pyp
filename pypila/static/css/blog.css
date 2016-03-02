@@ -1,0 +1,14 @@
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(0, 134, 115);
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+}
